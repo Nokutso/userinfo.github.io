@@ -260,3 +260,22 @@ footer{
     color: whitesmoke;
     text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;  /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        padding: 10px;  /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5em;  /* Make headers a bit smaller on mobile */
+    }
+    
+    /* Example for flexbox layout adjustments */
+    .navigation {
+        flex-direction: column;  /* Stack navigation items vertically */
+    }
+}
